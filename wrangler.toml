@@ -1,0 +1,11 @@
+name = "portfolio-mcp-server"
+main = "src/index.js"
+compatibility_date = "2024-01-01"
+account_id = "YOUR_CLOUDFLARE_ACCOUNT_ID"
+
+[vars]
+API_BASE = "https://your-api-endpoint.com/api/"
+
+# Set these via wrangler secret commands:
+# wrangler secret put CF_ACCESS_CLIENT_ID
+# wrangler secret put CF_ACCESS_CLIENT_SECRET
